@@ -1,8 +1,0 @@
-{
-  "name": "Tech Bridge Task 1",
-  "description": "Tech Bridge Task 1 imported application",
-  "permissions": [],
-  "capabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}

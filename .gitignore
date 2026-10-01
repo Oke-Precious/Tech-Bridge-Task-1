@@ -1,0 +1,7 @@
+# Ignore environment and local server files so only index.html, style.css, and images are pushed to GitHub
+node_modules/
+package.json
+package-lock.json
+server.js
+metadata.json
+.env*
