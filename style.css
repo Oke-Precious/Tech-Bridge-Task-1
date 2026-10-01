@@ -1567,10 +1567,21 @@ input:focus-visible {
 }
 
 .footer-logo {
-  max-height: 48px;
+  max-height: 44px;
   width: auto;
   object-fit: contain;
   margin-bottom: 18px;
+  background-color: #FFFFFF;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.footer-logo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35), 0 0 16px rgba(57, 184, 10, 0.3);
 }
 
 .footer-brand-title {
